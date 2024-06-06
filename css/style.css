@@ -23,10 +23,7 @@
     /* HEADER */
 
 header {
-    margin: 40px;
-}
-
-header, p {
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -36,16 +33,16 @@ h1 {
 }
 
 
-
     /* MAIN */
 
 p {
     font-size: 18px;
+    text-align: center;
 }
 
 .columns {
     float: left;
-    width: calc((100% / 3) - 40px);
+    width: calc((1200px / 3) - 40px);
     height: 100px;
     background-color: red;
     margin: 20px;
