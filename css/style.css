@@ -5,4 +5,52 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
-}    
+}
+
+    /* GENERAL */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+    /* HEADER */
+
+header {
+    margin: 40px;
+}
+
+header, p {
+    text-align: center;
+}
+
+h1 {
+    color:#E53170;
+    font-size: 40px;
+}
+
+
+
+    /* MAIN */
+
+p {
+    font-size: 18px;
+}
+
+.columns {
+    float: left;
+    width: calc((100% / 3) - 40px);
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: #0F0E17;
+    
+}
+
