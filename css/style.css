@@ -51,6 +51,30 @@ p {
     margin: 20px;
     margin-top: 40px;
     background-color: #0F0E17;
+    box-shadow: 10px 10px 10px black;
     
+}
+
+img {
+    width:100px;
+    float: left;
+    margin-right: 12px;
+}
+
+.descrizione {
+    color: white;
+    text-align: left;
+    margin: 8px;
+    font-size: 15px;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.email {
+    color: #59BCE1;
+    text-decoration: none;
 }
 
